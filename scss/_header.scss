@@ -1,5 +1,6 @@
 .header{
     //hamburger open style
+    
     &.open{
 
         
@@ -26,7 +27,7 @@
         right: 0px;
         bottom: 0px;
         left: 0px;
-       
+        
         background-image: linear-gradient($darkblue,transparent);
        
     
@@ -38,6 +39,7 @@
        background-color: $White;
        padding-top: 1.0625rem;
        padding-bottom: 1.0625rem;
+       
 
    }
     
@@ -75,6 +77,7 @@
 
     &__menu{
         position: absolute;
+        z-index: 1;
         width:85%;
         left: 50%;
         transform: translateX(-50%);

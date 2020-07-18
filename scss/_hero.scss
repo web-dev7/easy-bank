@@ -19,6 +19,7 @@
     @include breakpoint-up(medium) {
       min-height: 25rem;
       background-position: center 60%;
+    
     }
 
     @include breakpoint-up(large) {
@@ -42,6 +43,7 @@
 
       @include breakpoint-up(medium) {
         background-size: 52%;
+        
       }
 
       @include breakpoint-up(large) {
